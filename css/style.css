@@ -1,0 +1,267 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    height: 0px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Header Section*/
+
+header {
+    /*important for 'section dividing' */
+    width: 100%;
+    float: left;
+}
+
+.logo {
+    width: 50%;
+    float: left;
+}
+
+.logo img {
+    width: 144px;
+    height: 90px;
+}
+
+
+/*MENU*/
+
+.menu {
+    width: 50%;
+    display: inline-block;
+}
+
+.menu_link {
+    width: 55%;
+    float: left;
+}
+
+.menu_link ul {
+    list-style: none;
+}
+
+.menu_link ul li {
+    display: inline-block;
+    margin: 25px 5px;
+}
+
+.menu_link ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #161716;
+    padding: 5px 4px;
+    text-transform: uppercase;
+}
+
+.social_link {
+    width: 30%;
+    float: left;
+}
+
+.social_link ul {
+    list-style: none;
+}
+
+.social_link ul li {
+    display: inline-block;
+    margin: 25px -8px;
+}
+
+.social_link ul a {
+    padding: 7px 11px;
+    text-decoration: none;
+}
+
+
+/* About Section*/
+
+.about {
+    /*important for 'section dividing' */
+    width: 100%;
+    float: left;
+}
+
+.bg {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.about_intro {
+    display: inline-block;
+    background-color: #a2a5a391;
+    margin: 6%;
+    padding: 40px;
+    border-radius: 3px 19px;
+}
+
+.about_intro h4 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+.about_intro a {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.btn-p {
+    color: #fff;
+    background-color: #9fd86b;
+    border: 1px solid #85cd43;
+    font-size: 16px;
+    padding: 13px;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.btn-s {
+    color: #fff;
+    background-color: #095169;
+    border: 1px solid #073f52;
+    font-size: 16px;
+    padding: 13px;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+
+/* Service Section*/
+
+.service {
+    /*important for 'section dividing' */
+    width: 100%;
+    float: left;
+    margin: 50px;
+    text-align: center;
+}
+
+.concept {
+    width: 25%;
+    float: left;
+}
+
+.loan {
+    width: 25%;
+    float: left;
+}
+
+.financing {
+    width: 25%;
+    float: left;
+}
+
+.signup {
+    width: 25%;
+    float: left;
+}
+
+.ser-i {
+    background-color: #073f52;
+    border-radius: 48px;
+    padding: 40px;
+}
+
+.s-text {
+    margin: 25px;
+    font-size: 22px;
+}
+
+.ser-btn {
+    font-size: 15px;
+    padding: 6px;
+    background: burlywood;
+    border: 2px solid;
+    border-radius: 5px 5px;
+    margin: 20px 0px;
+}
+
+
+/*Service Intro*/
+
+.service_intro {
+    /*important for 'section dividing' */
+    width: 100%;
+    float: left;
+}
+
+.s_inro_one {
+    width: 50%;
+    /* height: 80px;
+    background-color: lightsalmon; */
+    float: left;
+}
+
+.s_inro_two {
+    width: 50%;
+    float: left;
+}
+
+.s_inro_cover-a {
+    width: 500px;
+    background-color: #85cd43ab;
+}
+
+.s_inro_cover-b {
+    width: 500px;
+    background-color: #1b4280ab;
+}
+
+.a-intro {
+    margin: 0px 150px;
+}
+
+
+/*blog Section*/
+
+.blog {
+    /*important for 'section dividing' */
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 50px 10px;
+}
+
+.b-one {
+    width: 50%;
+    float: left;
+}
+
+.b-two {
+    width: 50%;
+    float: left;
+}
+
+
+/*footer Section*/
+
+footer {
+    /*important for 'section dividing' */
+    width: 100%;
+    float: left;
+    background-color: #00000054;
+}
+
+.copyright {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.adress {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
